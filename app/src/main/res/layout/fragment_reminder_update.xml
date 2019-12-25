@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.UpdateReminderFragment">
+
+
+    <EditText
+        android:id="@+id/ET_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/placeholder_reminder"
+        android:inputType="text|textMultiLine"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btn_save_reminder"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/btn_save"
+        android:layout_gravity="center"></Button>
+
+
+</LinearLayout>

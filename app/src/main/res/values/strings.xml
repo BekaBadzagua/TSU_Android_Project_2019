@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Daily Helper</string>
+
+    <string name="menu_reminder">Reminders</string>
+    <string name="menu_shop_assistant">Shop Assistant</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_clear">Clear</string>
+
+    <string name="placeholder_reminder">Reminder</string>
+    <string name="placeholder_product">Product</string>
+    <string name="placeholder_number">Number</string>
+
+
+</resources>
